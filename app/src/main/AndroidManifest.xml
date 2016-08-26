@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="org.xiangbalao.OrmliteApplication"
+        android:name="org.xiangbalao.app.OrmliteApplication"
         android:theme="@style/AppTheme.NoActionBar"
         android:icon="@drawable/ic_launcher">
         <activity
@@ -15,13 +15,23 @@
             android:theme="@android:style/Theme.NoTitleBar">
 
 
+
+        </activity>
+
+        <activity
+            android:name="org.xiangbalao.address.OmliteProvinceCityActivity"
+            android:label="Ormlite"
+            android:theme="@android:style/Theme.NoTitleBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
+
+
         <activity
             android:name="org.xiangbalao.OmliteCityActivity"
             android:label="Ormlite"

@@ -2,11 +2,81 @@
 <items version="2" >
 
     <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_71141a110798988a368ee32d59bfdad9c1d81477\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ca7580f6a9e5d2f1e8829f717022d037fdd87163">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1ccb342adcfa629e8eb7f78c8332a289047e32ba\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\libs\ormlite-android-4.48.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9e45246f4a068cad94e03f34bf8f24358279a7f7">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-android-4.48_82a3b5f91f5176229b573eea2dc27fa47f5ea4f9\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_95c5e042749db8ba772de12a9e719d6519dc9667\classes.dex" />
+    </item>
+    <item
+        jar="E:\Android_IDE\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_e1e29b7de87311adec95bce1fbc450ac4f5fb3b8\classes.dex" />
+    </item>
+    <item
         jar="C:\Users\longtaoge\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_2b5b9324fae871b11c1dfedd302879b608e97daf\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_62be2adcd4440885098424871c716ff735971fb6\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_6c296e63265231fb218d14c0f4ea0324e6223b8b\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="400a9b0de9f2ccc41f07a65d0de1831cf13bd5bd">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ce112ba0fa803e1647d2680ec264ff761e75d784\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\libs\ormlite-core-4.48.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="00b3081e1074bf380cc1d09d6ef4f8e5415311f2">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-core-4.48_312e1a81cd80aec447ef09262f88dd942986813c\classes.dex" />
+    </item>
+    <item
+        jar="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="I:\GITHUB\jmessage-sdk-android-1.3.1\demo\OrmliteDemo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_9a402e463df02055c5443f309fca189edf64bd4a\classes.dex" />
     </item>
 
 </items>

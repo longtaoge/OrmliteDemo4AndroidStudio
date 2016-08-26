@@ -1,7 +1,7 @@
 package org.xiangbalao;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class OmliteCityActivity extends AppCompatActivity implements OnClickListener {
+public class OmliteCityActivity extends Activity implements OnClickListener {
 
 	private DatabaseHelper helper;
 	private Dao<City, String> dao;
