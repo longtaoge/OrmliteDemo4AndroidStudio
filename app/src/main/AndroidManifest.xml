@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.xiangbalao.ormlite">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.xiangbalao.OrmliteApplication"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:icon="@drawable/ic_launcher">
+        <activity
+            android:name="org.xiangbalao.OmliteActivity"
+            android:label="Ormlite"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="org.xiangbalao.OmliteCityActivity"
+            android:label="Ormlite"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+    </application>
+
+</manifest>

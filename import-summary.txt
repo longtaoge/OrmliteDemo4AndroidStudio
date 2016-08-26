@@ -1,0 +1,112 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* README.md
+* sh.exe.stackdump
+* test\
+* test\OrmliteFactory\
+* test\OrmliteFactory\.classpath
+* test\OrmliteFactory\.project
+* test\OrmliteFactory\.settings\
+* test\OrmliteFactory\.settings\org.eclipse.core.resources.prefs
+* test\OrmliteFactory\.settings\org.eclipse.jdt.core.prefs
+* test\OrmliteFactory\AndroidManifest.xml
+* test\OrmliteFactory\assets\
+* test\OrmliteFactory\assets\icudt46l.zip
+* test\OrmliteFactory\ic_launcher-web.png
+* test\OrmliteFactory\libs.zip
+* test\OrmliteFactory\libs\
+* test\OrmliteFactory\libs\android-support-v4.jar
+* test\OrmliteFactory\libs\android-support-v7-appcompat.jar
+* test\OrmliteFactory\libs\armeabi\
+* test\OrmliteFactory\libs\armeabi\libdatabase_sqlcipher.so
+* test\OrmliteFactory\libs\armeabi\libsqlcipher_android.so
+* test\OrmliteFactory\libs\armeabi\libstlport_shared.so
+* test\OrmliteFactory\libs\gson-1.3.jar
+* test\OrmliteFactory\libs\guava-r09.jar
+* test\OrmliteFactory\libs\ormlite-android-4.48.jar
+* test\OrmliteFactory\libs\ormlite-core-4.48.jar
+* test\OrmliteFactory\libs\ormlite-sqlcipher.jar
+* test\OrmliteFactory\libs\persistence-api-1.0.2.jar
+* test\OrmliteFactory\libs\sqlcipher.jar
+* test\OrmliteFactory\proguard-project.txt
+* test\OrmliteFactory\project.properties
+* test\OrmliteFactory\res\
+* test\OrmliteFactory\res\drawable-hdpi\
+* test\OrmliteFactory\res\drawable-hdpi\ic_launcher.png
+* test\OrmliteFactory\res\drawable-mdpi\
+* test\OrmliteFactory\res\drawable-mdpi\ic_launcher.png
+* test\OrmliteFactory\res\drawable-xhdpi\
+* test\OrmliteFactory\res\drawable-xhdpi\ic_launcher.png
+* test\OrmliteFactory\res\drawable-xxhdpi\
+* test\OrmliteFactory\res\drawable-xxhdpi\ic_launcher.png
+* test\OrmliteFactory\res\layout\
+* test\OrmliteFactory\res\layout\activity_main.xml
+* test\OrmliteFactory\res\values-w820dp\
+* test\OrmliteFactory\res\values-w820dp\dimens.xml
+* test\OrmliteFactory\res\values\
+* test\OrmliteFactory\res\values\dimens.xml
+* test\OrmliteFactory\res\values\strings.xml
+* test\OrmliteFactory\res\values\styles.xml
+* test\OrmliteFactory\src\
+* test\OrmliteFactory\src\org\
+* test\OrmliteFactory\src\org\xiangbalao\
+* test\OrmliteFactory\src\org\xiangbalao\Location.java
+* test\OrmliteFactory\src\org\xiangbalao\MainActivity.java
+* test\OrmliteFactory\src\org\xiangbalao\common\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\DatabaseHelper.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\SqliteDao.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\DataQuery.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\DataType.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\MethodType.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\Order.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\OrderType.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\Page.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\dao\criteria\Where.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\factory\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\factory\DBFactory.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\util\
+* test\OrmliteFactory\src\org\xiangbalao\common\android\util\BaseLog.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\util\Constant.java
+* test\OrmliteFactory\src\org\xiangbalao\common\android\util\LogUtils.java
+* test\OrmliteFactory\src\org\xiangbalao\model\
+* test\OrmliteFactory\src\org\xiangbalao\model\DataTest.java
+* test\OrmliteFactory\src\org\xiangbalao\test\
+* test\OrmliteFactory\src\org\xiangbalao\test\DbTest.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\ormlite-android-4.48.jar => app\libs\ormlite-android-4.48.jar
+* libs\ormlite-core-4.48.jar => app\libs\ormlite-core-4.48.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
