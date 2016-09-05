@@ -31,7 +31,7 @@ public class Province  implements Serializable {
     @DatabaseField
     private String pinyin;
 
-    private List<City1> cityList;
+    private List<City> cityList;
 
     public String getProvinceName() {
         return provinceName;
@@ -41,11 +41,11 @@ public class Province  implements Serializable {
         this.provinceName = provinceName;
     }
 
-    public List<City1> getCityList() {
+    public List<City> getCityList() {
         return cityList;
     }
 
-    public void setCityList(List<City1> cityList) {
+    public void setCityList(List<City> cityList) {
         this.cityList = cityList;
     }
 
@@ -66,7 +66,7 @@ public class Province  implements Serializable {
     }
 
 
-    public static class City1 {
+    public static class City {
 
         @DatabaseField(columnName = "_id", generatedId = true, allowGeneratedIdInsert = true)//必须为int
         private int id;

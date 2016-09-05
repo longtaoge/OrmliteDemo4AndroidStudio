@@ -23,9 +23,15 @@ public class OrmliteApplication extends Application {
 	public void onCreate() {
 		// 初始化
 		DatabaseHelper.initialize(databasesPath, 1, new Class<?>[] {
-				DataTest.class, User.class, City.class, Province.class, Province.City1.class
+				DataTest.class, User.class, City.class, Province.class, Province.City.class
 
 		});
+		// 初始化
+		/*DatabaseHelper.initialize(databasesPath, 1, new Class<?>[] {
+				 Province.class, Province.City.class
+
+		});*/
+
 		super.onCreate();
 
 	}

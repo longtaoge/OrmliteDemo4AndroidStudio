@@ -28,7 +28,7 @@ public class OmliteProvinceCityActivity extends Activity implements OnClickListe
 
     private DatabaseHelper helper;
     private Dao<Province, String> provinceDao;
-    private Dao<Province.City1, String> cityDao;
+    private Dao<Province.City, String> cityDao;
     private EditText etFirstName;
     private EditText etlastname;
     // 增
@@ -90,7 +90,7 @@ public class OmliteProvinceCityActivity extends Activity implements OnClickListe
         try {
 
             provinceDao = helper.getDao(Province.class);
-            cityDao =helper.getDao(Province.City1.class) ;
+            cityDao =helper.getDao(Province.City.class) ;
 
 
 
@@ -136,7 +136,7 @@ public class OmliteProvinceCityActivity extends Activity implements OnClickListe
 
                     for (int j=0;j<province.getCityList().size();j++){
 
-                        Province.City1 city1 =province.getCityList().get(j);
+                        Province.City city1 =province.getCityList().get(j);
                         city1.setProvinceCode(province.getProvinceCode());
                         city1.setPinyin(PinYin4JUtils.getPinYin(city1.getCityName()));
 
@@ -252,7 +252,7 @@ public class OmliteProvinceCityActivity extends Activity implements OnClickListe
     }
 
 
-    private void saveCity(Province.City1 city) {
+    private void saveCity(Province.City city) {
 
         try {
             cityDao.createOrUpdate(city);
