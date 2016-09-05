@@ -18,6 +18,7 @@ import org.xiangbalao.common.db.DatabaseHelper;
 import org.xiangbalao.common.util.FileOperate;
 import org.xiangbalao.common.util.GsonUtil;
 import org.xiangbalao.common.util.LogUtils;
+import org.xiangbalao.common.util.PinYin4JUtils;
 import org.xiangbalao.ormlite.R;
 
 import java.sql.SQLException;
@@ -125,15 +126,19 @@ public class OmliteProvinceCityActivity extends Activity implements OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnSave:
+
+
                 for (int i = 0; i < mProvince.size(); i++) {
                     Province  province=mProvince.get(i);
+
+                    province.setPinyin(PinYin4JUtils.getPinYin(province.getProvinceName()));
                     save(province);
 
                     for (int j=0;j<province.getCityList().size();j++){
 
                         Province.City1 city1 =province.getCityList().get(j);
                         city1.setProvinceCode(province.getProvinceCode());
-
+                        city1.setPinyin(PinYin4JUtils.getPinYin(city1.getCityName()));
 
 
                         saveCity(city1);

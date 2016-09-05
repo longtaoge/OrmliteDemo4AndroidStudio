@@ -27,6 +27,10 @@ public class Province  implements Serializable {
     @DatabaseField
     private String provinceName;
 
+
+    @DatabaseField
+    private String pinyin;
+
     private List<City1> cityList;
 
     public String getProvinceName() {
@@ -53,6 +57,13 @@ public class Province  implements Serializable {
         this.id = id;
     }
 
+    public String getPinyin() {
+        return pinyin;
+    }
+
+    public void setPinyin(String pinyin) {
+        this.pinyin = pinyin;
+    }
 
 
     public static class City1 {
@@ -67,6 +78,16 @@ public class Province  implements Serializable {
         @DatabaseField
         private String provinceCode;
 
+        public String getPinyin() {
+            return pinyin;
+        }
+
+        public void setPinyin(String pinyin) {
+            this.pinyin = pinyin;
+        }
+
+        @DatabaseField
+        private String pinyin;
 
         public String getProvinceCode() {
             return provinceCode;
